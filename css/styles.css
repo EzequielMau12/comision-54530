@@ -116,4 +116,18 @@ footer{
 .pie-links ul li a{
     color: #e7be8c;
 }
+.galeria-albums{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(13 ,1fr);
+    width: 50%;
+    height: 50%;
+}
+.album{
+    color: antiquewhite;
+}
+.album a img{
+    width: 80%;
+    height: 40%;
+}
 
