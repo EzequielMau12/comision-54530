@@ -191,3 +191,8 @@ width: 25%;
     color:#e7be8c;
     font-size: 86%;
 }
+.peliculas{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    grid-template-rows: repeat(8 ,1fr);
+}
